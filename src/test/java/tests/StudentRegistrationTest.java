@@ -56,7 +56,7 @@ public class StudentRegistrationTest extends TestBase {
     }
 
     @Test
-    void studentRegistrationFormIncorrectEmailTest() {
+    void studentRegistrationFormIncorrectUserNumberTest() {
         registrationPage.openPage()
                 .setFirstName(testData.firstName)
                 .setLastName(testData.lastName)
