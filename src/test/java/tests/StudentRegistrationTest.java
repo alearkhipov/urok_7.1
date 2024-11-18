@@ -37,7 +37,7 @@ public class StudentRegistrationTest extends TestBase {
     }
 
     @Test
-    void studentRegistrationFormMinimumDate() {
+    void studentRegistrationFormMinimumDateTest() {
         registrationPage.openPage()
                 .setFirstName(testData.firstName)
                 .setLastName(testData.lastName)
@@ -56,7 +56,7 @@ public class StudentRegistrationTest extends TestBase {
     }
 
     @Test
-    void studentRegistrationFormIncorrectEmail() {
+    void studentRegistrationFormIncorrectEmailTest() {
         registrationPage.openPage()
                 .setFirstName(testData.firstName)
                 .setLastName(testData.lastName)
